@@ -1,1 +1,1 @@
-simple_uuid
+simple_uuid --v '>= 0.02' --s gemcutter.org
