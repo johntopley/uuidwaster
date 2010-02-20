@@ -1,0 +1,51 @@
+body {
+  background: #fff;
+  color: #999;
+  font: 110% 'Times New Roman', Georgia, serif;
+  font-style: italic;
+  letter-spacing: .2em;
+  line-height: 150%;
+  margin: 0;
+  padding: 0;
+}
+a {
+  border-bottom: 1px dotted #ccc;
+  color: #999;
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: 1px solid #ccc;
+}
+a:hover, a:active {
+  color: #000;
+}
+div {
+  margin: 0 auto;
+  text-align: center;
+  width: 1024px;
+}
+#container {
+  position: absolute;
+  top: 100px;
+}
+#uuid {
+  color: #ff4f00;
+  font: 250% Helvetica, Arial, sans-serif;
+  letter-spacing: .1em;
+  margin-bottom: 0;
+}
+#explanation, #count, #about {
+  padding-top: 1em;
+  text-align: center;
+}
+#explanation {
+  border-top: 1px dotted #ccc;
+}
+#count {
+  border-top: none;
+}
+#about {
+  border-top: 1px dotted #ccc;
+  font-size: 70%;
+  font-style: normal;
+}
