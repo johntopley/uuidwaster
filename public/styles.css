@@ -24,10 +24,6 @@ div {
   text-align: center;
   width: 1024px;
 }
-#container {
-  position: absolute;
-  top: 100px;
-}
 #uuid {
   color: #ff4f00;
   font: 250% Helvetica, Arial, sans-serif;
