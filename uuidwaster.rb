@@ -74,9 +74,9 @@ __END__
       function go() {
         var uuid = $("#uuid");
         $.post("/", function(data) {
-          var pos = data.search(/:/)
+          var pos = data.search(/:/);
           uuid.html(data.substr(0, pos));
-          $("#count").html(data.substr(pos + 1) + ".")
+          $("#count").html(data.substr(pos + 1) + ".");
         });
         setTimeout("go();", 1000);
       }
