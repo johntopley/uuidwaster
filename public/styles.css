@@ -1,7 +1,7 @@
 body {
   background: #fff;
   color: #999;
-  font: 110% 'Times New Roman', Georgia, serif;
+  font: 100% 'Times New Roman', Georgia, serif;
   font-style: italic;
   letter-spacing: .2em;
   line-height: 150%;
@@ -26,7 +26,7 @@ div {
 }
 #uuid {
   color: #ff4f00;
-  font: 250% Helvetica, Arial, sans-serif;
+  font: 240% Helvetica, Arial, sans-serif;
   letter-spacing: .1em;
   margin-bottom: 0;
 }
@@ -42,6 +42,6 @@ div {
 }
 #about {
   border-top: 1px dotted #ccc;
-  font-size: 70%;
+  font-size: 60%;
   font-style: normal;
 }
