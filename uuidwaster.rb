@@ -32,6 +32,10 @@ helpers do
       number
     end
   end
+  
+  def uuid
+    SimpleUUID::UUID.new.to_guid
+  end
 end
 
 get '/' do
@@ -47,7 +51,7 @@ post '/' do
   rescue
     nil
   end
-  "#{UUID.new.to_guid}:Wasted #{number_with_delimiter(stat.count)} UUIDs since #{stat.created_at.strftime('%H:%M on %d %B %Y')}"
+  "#{uuid}:Wasted #{number_with_delimiter(stat.count)} UUIDs since #{stat.created_at.strftime('%H:%M on %d %B %Y')}"
 end
 
 __END__
