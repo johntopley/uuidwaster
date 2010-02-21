@@ -6,7 +6,8 @@ body {
   letter-spacing: .2em;
   line-height: 150%;
   margin: 0;
-  padding: 0;
+  padding: 0 150px;
+  text-align: center;
 }
 a {
   border-bottom: 1px dotted #ccc;
@@ -18,11 +19,6 @@ a:hover {
 }
 a:hover, a:active {
   color: #000;
-}
-div {
-  margin: 0 auto;
-  text-align: center;
-  width: 1024px;
 }
 #uuid {
   color: #ff4f00;
@@ -36,9 +32,6 @@ div {
 }
 #explanation {
   border-top: 1px dotted #ccc;
-}
-#count {
-  border-top: none;
 }
 #about {
   border-top: 1px dotted #ccc;

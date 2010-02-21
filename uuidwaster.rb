@@ -61,15 +61,13 @@ __END__
     <link href="/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <div>
-      <p id="uuid">loading</p>
-      <p id="explanation">
-        A Universally Unique Identifier (UUID) is a 128-bit number defined by <a href="http://tools.ietf.org/html/rfc4122">RFC 4122</a> that is for all intents and purposes guaranteed to be unique.
-        For example, the probability of a duplicate UUID would be about 50% if every person on earth&mdash;population approaching seven billion people&mdash;owned 600 million UUIDs.
-      </p>
-      <p id="count"></p>
-      <p id="about">&copy;2010 <a href="http://johntopley.com/">John Topley</a> (<a href="http://github.com/johntopley/uuidwaster">Source</a>)</p>
-    </div>
+    <p id="uuid">loading</p>
+    <p id="explanation">
+      A Universally Unique Identifier (UUID) is a 128-bit number defined by <a href="http://tools.ietf.org/html/rfc4122">RFC 4122</a> that is for all intents and purposes guaranteed to be unique.
+      For example, the probability of a duplicate UUID would be about 50% if every person on earth&mdash;population approaching seven billion people&mdash;owned 600 million UUIDs.
+    </p>
+    <p id="count"></p>
+    <p id="about">&copy;2010 <a href="http://johntopley.com/">John Topley</a> (<a href="http://github.com/johntopley/uuidwaster">Source</a>)</p>
     <script src="http://www.google.com/jsapi"></script>
     <script type="text/javascript">
       google.load("jquery", "1.4.2");
