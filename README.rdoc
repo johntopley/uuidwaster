@@ -1,0 +1,10 @@
+= UUID Waster
+
+UUID Waster is a useless Sinatra application for wasting Universal Unique Identifiers (UUIDs).
+A Universally Unique Identifier (UUID) is a 128-bit number defined by RFC 4122 that is for all intents and purposes guaranteed to be unique.
+For example, the probability of a duplicate UUID would be about 50% if every person on earth—population approaching seven billion people—owned 600 million UUIDs.
+
+== Dependencies
+
+* UUID Waster uses the {simple_uuid}[http://github.com/ryanking/simple_uuid] gem from Twitter to perform the UUID generation
+* It uses {DataMapper}[http://datamapper.org/] as an ORM
