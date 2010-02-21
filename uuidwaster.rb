@@ -47,7 +47,7 @@ post '/' do
   rescue
     nil
   end
-  "#{UUID.new.to_guid}:Wasted #{number_with_delimiter(stat.count)} UUIDs since #{stat.created_at.strftime('%d %B %Y')}"
+  "#{UUID.new.to_guid}:Wasted #{number_with_delimiter(stat.count)} UUIDs since #{stat.created_at.strftime('%H:%M on %d %B %Y')}"
 end
 
 __END__
@@ -56,7 +56,7 @@ __END__
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>UUID Waster</title>
     <link href="/styles.css" rel="stylesheet" type="text/css">
   </head>
