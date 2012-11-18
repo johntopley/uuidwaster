@@ -1,2 +1,2 @@
-require 'uuidwaster.rb'
+require './uuidwaster.rb'
 run Sinatra::Application
