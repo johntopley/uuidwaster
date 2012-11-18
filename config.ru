@@ -3,5 +3,5 @@ require 'bundler'
 
 Bundler.require
 
-require './uuidwaster.rb'
+require File.dirname(__FILE__) + '/uuidwaster.rb'
 run Sinatra::Application
